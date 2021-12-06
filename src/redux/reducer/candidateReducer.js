@@ -1,3 +1,4 @@
+import { fetchCandidates } from "../actions/candidateActions";
 import { ActionTypes } from "../constants/action-types";
 const initialState = [];
 
@@ -22,6 +23,8 @@ export const candidateReducer = (state = initialState, { type, payload }) => {
       return [...state, ...payload];
     case ActionTypes.SORTED_CANDIDATES:
       return sortedCandidates(payload);
+    case ActionTypes.FETCH_CANDIDATES:
+      return [...state, ...payload];
     default:
       return state;
   }
