@@ -7,7 +7,7 @@ export const data = [
     year_of_experience: 5,
     position_applied: "Representative",
     application_date: "2018-04-11",
-    status: "rejected"
+    status: "rejected",
   },
   {
     id: 13,
@@ -17,7 +17,7 @@ export const data = [
     year_of_experience: 5,
     position_applied: "Assistant",
     application_date: "2018-10-15",
-    status: "waiting"
+    status: "waiting",
   },
   {
     id: 14,
@@ -27,7 +27,7 @@ export const data = [
     year_of_experience: 15,
     position_applied: "Developer",
     application_date: "2018-02-14",
-    status: "rejected"
+    status: "rejected",
   },
   {
     id: 15,
@@ -37,7 +37,7 @@ export const data = [
     year_of_experience: 7,
     position_applied: "Executive",
     application_date: "2018-02-02",
-    status: "approved"
+    status: "approved",
   },
   {
     id: 16,
@@ -47,7 +47,7 @@ export const data = [
     year_of_experience: 3,
     position_applied: "Executive",
     application_date: "2017-11-11",
-    status: "rejected"
+    status: "rejected",
   },
   {
     id: 17,
@@ -57,7 +57,7 @@ export const data = [
     year_of_experience: 5,
     position_applied: "Agent",
     application_date: "2018-03-21",
-    status: "rejected"
+    status: "rejected",
   },
   {
     id: 18,
@@ -67,7 +67,7 @@ export const data = [
     year_of_experience: 11,
     position_applied: "Manager",
     application_date: "2018-09-02",
-    status: "approved"
+    status: "approved",
   },
   {
     id: 19,
@@ -77,7 +77,7 @@ export const data = [
     year_of_experience: 10,
     position_applied: "Orchestrator",
     application_date: "2018-07-30",
-    status: "approved"
+    status: "approved",
   },
   {
     id: 20,
@@ -87,6 +87,6 @@ export const data = [
     year_of_experience: 4,
     position_applied: "Manager",
     application_date: "2018-01-20",
-    status: "waiting"
-  }
+    status: "waiting",
+  },
 ];

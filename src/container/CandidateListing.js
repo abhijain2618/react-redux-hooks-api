@@ -12,23 +12,21 @@ const CandidateListing = () => {
     const response = await axios.get(uri).catch((err) => {
       console.log("err", err);
     });
-    console.log(response);
-    if(response.status == 200){
+    if (response.status == 200) {
       dispatch(setCandidates(response["data"]["data"]["data"]));
-    }else{
-      console.log('API Call status not 200');
+    } else {
+      console.log("API Call status not 200");
     }
-    
   };
   useEffect(() => {
-    console.log("use effect called - inactive api call ");
+    console.log("Active api call");
     fetchCandidateInformation();
   }, []);
 
   return (
-    <div className="ui grid container">      
+    <div className="ui grid container">
       <CandidateComponent />
-      {/* <CandidateDetails/> */}
+      <CandidateDetails />
     </div>
   );
 };

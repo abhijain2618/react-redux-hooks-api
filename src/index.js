@@ -10,9 +10,9 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(
   <StrictMode>
     <BrowserRouter>
-    <Provider store={store}>
-      <App />
-    </Provider>
+      <Provider store={store}>
+        <App />
+      </Provider>
     </BrowserRouter>
   </StrictMode>,
   rootElement
